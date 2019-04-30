@@ -12,7 +12,7 @@
     <module>MavenEnterpriseApp-web</module>
   </modules>
   <properties>
-                <sonar.host.url>http://52.66.235.159:9000/</sonar.host.url>
+                <sonar.host.url>http://35.154.183.124:9000</sonar.host.url>
                 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
                 <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         </properties>
@@ -21,12 +21,12 @@
             <repository>
               <id>nexus</id>
               <name>Mohan Reddy Releases Nexus Repository</name>
-              <url>http://13.233.152.125:8081/repository/jenkins-maven-releases/</url>
+              <url>http://13.233.194.187:8081/repository/jenkins-maven-releases/</url>
             </repository>
             <snapshotRepository>
               <id>nexus</id>
               <name>Mohan Reddy Snapshot Nexus Repository </name>
-              <url>http://13.233.152.125:8081/repository/jenkins-maven-snapshots/</url>
+              <url>http://13.233.194.187:8081/repository/jenkins-maven-snapshots/</url>
             </snapshotRepository>
 
         </distributionManagement>
